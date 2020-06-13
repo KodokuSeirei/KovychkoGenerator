@@ -1,0 +1,29 @@
+﻿<Window x:Class="KovychkoGenerator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KovychkoGenerator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+        </Grid.RowDefinitions>
+        <TextBox Name="textboxBeforeProcessing" Grid.Row="0" Grid.Column="0" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" AcceptsReturn="True">
+        </TextBox>
+        <TextBox Name="textboxPostProcessing"  Grid.Row="0" Grid.Column="1" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible" AcceptsReturn="True" >
+        </TextBox>
+        <StackPanel Name="Buttons" Grid.Row="1" Grid.Column="0" Orientation="Horizontal">
+            <Button x:Name="Processing" Content="Кавычки строкой" Click="Processing_Click" Height="20" Margin="0,0,189,0" VerticalAlignment="Top"/>
+            <Button x:Name="Processing2" Content="Кавычки колонкой"  Click="Processing2_Click" Width="108"  />
+
+        </StackPanel>
+        <Button x:Name ="ToClear" Content="Очистить поле" Grid.Row="1" Grid.Column="1" Click="ToClear_Click"/>
+    </Grid>
+</Window>

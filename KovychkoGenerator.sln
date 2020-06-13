@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.452
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KovychkoGenerator", "KovychkoGenerator\KovychkoGenerator.csproj", "{103D91EC-4AA8-425F-B42B-2B89116F1195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{103D91EC-4AA8-425F-B42B-2B89116F1195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103D91EC-4AA8-425F-B42B-2B89116F1195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103D91EC-4AA8-425F-B42B-2B89116F1195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103D91EC-4AA8-425F-B42B-2B89116F1195}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C88B588-6541-41CE-A85D-C46C14580FD7}
+	EndGlobalSection
+EndGlobal
