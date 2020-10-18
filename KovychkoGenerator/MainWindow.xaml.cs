@@ -50,8 +50,7 @@ namespace KovychkoGenerator
           
             for (int i = 0; i < words.Length; i++)//Добавление одинарных кавычек
             {
-                textboxPostProcessing.Text +=words[i] + "'";
-               
+                textboxPostProcessing.Text +=words[i] + "'";               
             }
 
         }
