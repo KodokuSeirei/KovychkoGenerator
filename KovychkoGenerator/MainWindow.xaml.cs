@@ -52,7 +52,6 @@ namespace KovychkoGenerator
             {
                 textboxPostProcessing.Text +=words[i] + "'";               
             }
-
         }
     }
 }
